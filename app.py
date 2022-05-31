@@ -2,7 +2,6 @@ from flask import Flask, request, render_template
 import pickle
 import pandas as pd
 import numpy as np
-from tensorflow.keras.models import load_model,save_model
 from skimage.io import imread, imshow
 from skimage.transform import resize
 from skimage.feature import hog
